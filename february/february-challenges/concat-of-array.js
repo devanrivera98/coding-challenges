@@ -12,11 +12,11 @@ const doubleLength = 2 * nums.length;
 let countup = 0;
 
 for (let i = 0; i < doubleLength; i++) {
-  if (countdown > nums.length - 1) {
-    countdown = 0;
+  if (countup > nums.length - 1) {
+    countup = 0;
   }
-  ans.push(nums[countdown]);
-  countdown++;
+  ans.push(nums[countup]);
+  countup++;
 }
-
+  return ans;
 }
