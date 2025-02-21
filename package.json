@@ -1,0 +1,27 @@
+{
+  "name": "coding-challenges",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devanrivera98/coding-challenges.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devanrivera98/coding-challenges/issues"
+  },
+  "homepage": "https://github.com/devanrivera98/coding-challenges#readme",
+  "description": "",
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}
